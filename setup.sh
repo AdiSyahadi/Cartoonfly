@@ -1,7 +1,7 @@
 mkdir -p ~/.streamlit/
 echo "\
 [general]\n\
-email = \"colab.practice123@gmail.com\"\n\
+email = \"colab.adisyahadi41@gmail.com\"\n\
 " > ~/.streamlit/credentials.toml
 
 echo "\
