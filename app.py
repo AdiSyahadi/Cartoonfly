@@ -7,11 +7,9 @@ import os
 def footer():
 	st.markdown("""
 	* * *
-	Built with ❤️ by [Rehan uddin](https://hardly-human.github.io/)
+	Bismillah
 	""")
-	st.success("Rehan uddin (Hardly-Human)👋😉")
-	st.markdown("### [Give Feedback](https://www.iamrehan.me/forms/feedback_form/feedback_form.html)\
-	 `            `[Report an Issue](https://www.iamrehan.me/forms/report_issue/report_issue.html)")
+	st.success("👋😉")
 
 
 
@@ -26,8 +24,6 @@ def main():
   
 	st.title("Toonify Images")
 	st.text("Built with Toonify-API and Streamlit")
-	st.markdown("### [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/Hardly-Human/toonify-images)\
-	`            `[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://lbesson.mit-license.org/)")
 
 	image_file = st.file_uploader("Upload Image", type = ['jpg','png','jpeg'])
 
